@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(30, 30, 30);
+  justify-content: center;
+}
+
+div {
+  display: flex;
+}
+
+#shot-selection {
+  font-size: 2rem;
+}
