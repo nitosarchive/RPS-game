@@ -1,9 +1,18 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   align-items: center;
   min-height: 100vh;
   background: rgb(30, 30, 30);
   justify-content: center;
+  color: white;
 }
 
 div {
@@ -12,4 +21,32 @@ div {
 
 #shot-selection {
   font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  align-items: center;
+}
+
+.button {
+  padding-inline: 1em;
+  margin-inline-end: 0.3em;
+  font-size: 2rem;
+  border-radius: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+#rock {
+  background: red;
+}
+
+#paper {
+  background: green;
+}
+
+#scissors {
+  background: blue;
 }
