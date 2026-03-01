@@ -19,15 +19,25 @@ div {
   display: flex;
 }
 
-#shot-selection {
+#shot-selection,
+#user-selection {
   font-size: 2rem;
 }
-
+.shot-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .container {
   display: flex;
   flex-direction: column;
   gap: 1em;
   align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  gap: 1em;
 }
 
 .button {
